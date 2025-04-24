@@ -792,3 +792,9 @@ Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
 #	File Path Errors
 C:\Windows\System32\calc.exe
 /usr/lib/python2.7
+
+# CVE-2018-15120
+#
+# libpango DoS due to faulty emoji handling
+
+♥︎️
