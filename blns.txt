@@ -742,3 +742,9 @@ Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
 
 {% print 'x' * 64 * 1024**3 %}
 {{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}
+
+#	Excel export vulnerabilities
+#
+#	Strings which identify a remote code execution vulnerability via Excel macros when exporting them
+#       To fix this: on export, prepend excel triggers (e.g. +, -, =, @) with a single quote (')
+-2+3+cmd|' /C calc'!A0
