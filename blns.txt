@@ -758,3 +758,7 @@ Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗
 #	Strings which identify a remote code execution vulnerability via Excel macros when exporting them
 #       To fix this: on export, prepend excel triggers (e.g. +, -, =, @) with a single quote (')
 -2+3+cmd|' /C calc'!A0
+
+#	File Path Errors
+C:\Windows\System32\calc.exe
+/usr/lib/python2.7
