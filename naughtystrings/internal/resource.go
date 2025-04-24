@@ -1249,7 +1249,7 @@ func BlnsJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "../blns.json", size: 26381, mode: os.FileMode(420), modTime: time.Unix(1548804227, 0)}
+	info := bindataFileInfo{name: "../blns.json", size: 26381, mode: os.FileMode(420), modTime: time.Unix(1542393744, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
