@@ -796,5 +796,7 @@ C:\Windows\System32\calc.exe
 # CVE-2018-15120
 #
 # libpango DoS due to faulty emoji handling
-
 ♥︎️
+
+# Due to CVE-2019-19781 many Citrix gateways were configured to forbid requests with paths containing '/vpns/'
+vpns

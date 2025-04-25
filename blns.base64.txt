@@ -911,4 +911,6 @@ c3dkIikucmVhZCgpIH19
 #	File Path Errors
 QzpcV2luZG93c1xTeXN0ZW0zMlxjYWxjLmV4ZQ==
 L3Vzci9saWIvcHl0aG9uMi43
->>>>>>> 1dbafa7fe40736f0b7a45bef0dc3a460f0a67b5e
+
+# Due to CVE-2019-19781 many Citrix gateways were configured to forbid requests with paths containing '/vpns/'
+dnBucw==
