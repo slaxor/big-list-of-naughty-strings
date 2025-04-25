@@ -800,3 +800,9 @@ C:\Windows\System32\calc.exe
 
 # Due to CVE-2019-19781 many Citrix gateways were configured to forbid requests with paths containing '/vpns/'
 vpns
+
+# Filenames with special meaning
+#
+# cpio stops reading when it sees this
+# Credit: https://entropymine.wordpress.com/2018/05/27/the-cpio-trailer-problem/
+TRAILER!!!
